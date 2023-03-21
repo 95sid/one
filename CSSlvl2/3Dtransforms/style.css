@@ -1,0 +1,18 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  border: 1px solid black;
+  margin: 2px;
+}
+.a {
+  transform: perspective(100px) translateZ(-100px);
+}
+.b {
+  margin-left: 150px;
+  transform: perspective(100px) scaleX(100px) rotateY(100deg);
+}
+.c {
+  margin-left: 150px;
+  transform: perspective(100px) rotateZ(45deg);
+}

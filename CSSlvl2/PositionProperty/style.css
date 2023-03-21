@@ -1,0 +1,33 @@
+div{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
+#box1{
+    position: relative;
+    left: 910px;
+
+}
+#box2{
+    position: relative;
+    right: 110px;
+    top: 370px;
+}
+#box3{
+    position: relative;
+    top: 370px;
+    left:700px;
+}
+
+#box4{
+    position: relative;
+    right:320px;
+
+}
+#box5{
+    position: relative;
+    top: 200px;
+    left: 10px;
+}

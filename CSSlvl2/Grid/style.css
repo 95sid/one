@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: skyblue;
+    border: 1px solid black;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    grid-template-rows: 30px 1fr 30px;
+    gap: 5px;
+}
+.box1{
+    background-color: aqua;
+    border: 1px solid black;
+}
+#left{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#right{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+#header,#footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

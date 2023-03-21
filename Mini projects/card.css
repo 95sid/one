@@ -1,0 +1,20 @@
+.card{
+    border: 1px solid black;
+    /* height:120px; */
+    width:250px;
+    text-align: center;
+    /* background-color: green; */
+    /* box-shadow:10px 10px green; */
+    box-shadow: 10px 10px 10px #dad2a0;
+}
+.header{
+    /* padding: 10px; */
+    background-color: #dad2a0;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+}
+.container{
+    background-color: aliceblue;
+    padding: 10px;
+}

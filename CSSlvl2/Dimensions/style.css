@@ -1,0 +1,15 @@
+.box{
+    max-height: 200px;
+    /* max-width: 200px; */
+    border: 1px solid black;
+    padding:10px;
+    background-color: antiquewhite;
+    /* overflow property  1 - visible 2 - hideen 3- auto; */
+    overflow: scroll;
+    color:red;
+    background-image: linear-gradient(antiquewhite,white);
+}
+#head{
+    color: rgb(201, 151, 57);
+    text-shadow: 5px 5px 5px orange ;
+}

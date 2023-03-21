@@ -1,0 +1,30 @@
+<style>
+    /* *{
+        background-color: yellow;
+    } */
+    .green:hover{
+        color: rgb(37, 133, 218);
+    }
+    .blue:hover{
+        color: aqua;
+    }
+    h1,h2,h3{
+        font-size: small;
+        box-shadow: 10px 10px rgb(200, 192, 255);
+    }
+    h5,h6{
+        font-size: large;
+    }
+    h4{
+        color: green;
+    }
+    /* changes the color when we hover on the element */
+    #para:hover{
+        color: green;
+        background-color: beige;
+    }
+    /* Changes the color when we click the link */
+    a:active{
+        color: red;
+    } 
+</style>
